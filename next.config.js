@@ -1,3 +1,7 @@
+// 이 주석은 TypeScript를 사용하여 Next.js 설정 파일의 타입을 지정하는 것입니다.
+// import('next').NextConfig는 Next.js의 설정 객체 타입을 가져옵니다.
+// 이 주석을 추가하면, nextConfig 객체가 NextConfig 타입을 따르도록 강제할 수 있습니다.
+// 이를 통해 설정 파일에서 타입 검사를 수행할 수 있으며, 잘못된 설정을 방지할 수 있습니다.
 /** @type {import('next').NextConfig} */
 
 // const API_KEY = "841cdfd85f76bafc4304971cc7cf3d49";
